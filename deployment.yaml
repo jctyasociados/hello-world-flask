@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: iolcloud/flask-hello-world-kind-local:latest
+        image: flask-hello-world-kind-local:latest
         ports:
         - containerPort: 5000
 ---
